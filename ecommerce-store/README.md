@@ -2,6 +2,13 @@
 
 A modern, fully-functional e-commerce store built with React, Vite, Tailwind CSS, and Context API for global state management.
 
+<img width="1919" height="947" alt="Screenshot 2025-12-02 180719" src="https://github.com/user-attachments/assets/025866c3-f700-475c-817e-8c0ae1f30122" />
+
+<img width="1918" height="947" alt="Screenshot 2025-12-02 180832" src="https://github.com/user-attachments/assets/56474321-6c24-42bb-8647-6d287aa02905" />
+
+<img width="1918" height="952" alt="Screenshot 2025-12-02 180913" src="https://github.com/user-attachments/assets/c2b5108f-e1c0-4e07-bf6f-ad286e59f6d1" />
+
+
 ## ✨ Features
 
 ### Product Listing
