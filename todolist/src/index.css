@@ -129,3 +129,35 @@ input {
   0% { transform: scale(0.8); opacity: 0; }
   100% { transform: scale(1); opacity: 1; }
 }
+
+
+/* Completed Todo Style */
+.todo-item.done {
+  opacity: 0.6;
+  background: rgba(200, 255, 200, 0.25);
+  transform: scale(1);
+}
+
+.todo-item.done:hover {
+  transform: scale(1.02);
+}
+
+.todo-item.done .todo-text {
+  text-decoration: line-through;
+  color: #d9ffd9;
+}
+
+/* Checkmark bounce animation */
+.todo-text {
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.todo-item.done .todo-text {
+  animation: pop-check 0.3s ease;
+}
+
+@keyframes pop-check {
+  0% { transform: scale(0.7); }
+  100% { transform: scale(1); }
+}
