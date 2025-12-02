@@ -3,6 +3,8 @@
 A beautiful and modern movie search application built with React, Vite, and Tailwind CSS. Search for movies, add them to your favorites, and enjoy a stunning UI with smooth animations.
 
 
+https://github.com/user-attachments/assets/93f84836-6aa8-4311-8718-82e8b35b03a1
+
 
 ## ✨ Features
 
