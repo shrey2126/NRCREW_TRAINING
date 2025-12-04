@@ -22,7 +22,7 @@ export const CartProvider = ({ children }) => {
 
   useEffect(() => {
     localStorage.setItem('cart', JSON.stringify(cart));
-  }, [cart]);
+  }, [cart]); 
 
   const addToCart = (product) => {
     setCart((prevCart) => {

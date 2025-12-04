@@ -1,12 +1,19 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useMovieContext } from '../context/MovieContext';
 
 const SearchBar = ({ onSearch }) => {
   const [input, setInput] = useState('');
+  const navigate = useNavigate();
+  const { resetToHome } = useMovieContext();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (input.trim()) {
       onSearch(input);
+    } else {
+      resetToHome();
+      setInput('');
     }
   };
 
